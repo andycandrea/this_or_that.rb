@@ -5,25 +5,28 @@ methods, classes, patterns or techniques in Ruby and Rails. These entities might
 be similar in name, functionality or usage but have some differences that may or
 may not be readily apparent.
 
-The provided resources largely differences in usage and semantics and might not
-include differences in performance or version compatibility.
-
-When reading the resources, consider any accepted answers and discussion and
-note that some information might be more or less relevant for different versions
-of Ruby or Rails.
-
-This is a work in progress and is not expected to be exhaustive. If you have any
-suggestions, additions, clarifications or corrections, please feel free to open
-an issue or a pull request.
-
-NOTE: aliases, such as `update` and `update_attributes` from ActiveRecord, are
-not included in this list.
-
-For more information, see [the slides from the talk at RailsConf
+The provided resources largely describe differences in usage and semantics and
+might not include differences in performance or version compatibility. For more
+information, including different ways in which items in this list may differ,
+see [the slides from the talk at RailsConf
 2024](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit?usp=sharing)
 (video will be added once available).
 
-To see a searchable table of contents, click the list button on GitHub visible here:
+When reading the resources, consider any accepted answers and discussion and
+note that some information might be more or less relevant for different versions
+of Ruby and/or Rails.
+
+This is a work in progress and is not expected to be exhaustive. I do hope,
+however, it will continue to get closer over time. If you have any suggestions,
+additions, clarifications or corrections, please feel free to open an issue or a
+pull request.
+
+**NOTE**: aliases, such as `update` and `update_attributes` from ActiveRecord,
+are (largely) not included in this list. There may, however, be differences in
+which versions of Ruby or Rails introduced a method and its aliases.
+
+To see a searchable table of contents, click the list button on GitHub visible
+here:
 
 ![image](https://github.com/andycandrea/this_or_that.rb/assets/5621517/4f165a3c-d63a-4657-aace-7328ee045dcc)
 
@@ -110,7 +113,7 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 ### `group_by` vs `index_by` vs `index_with`
 
 * [What's the purpose of index_by over group_by?](https://www.ruby-forum.com/t/whats-the-purpose-of-index-by-over-group-by/104054)
-* [Enumerable#index_with](https://api.rubyonrails.org/classes/Enumerable.html#method-i-index_with)
+* [`Enumerable#index_with` docs](https://api.rubyonrails.org/classes/Enumerable.html#method-i-index_with)
 
 ---
 
@@ -245,15 +248,15 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 ### `Time` vs `DateTime` vs `ActiveSupport::TimeWithZone`
 
 * Note that differences have changed over time
-* [class DateTime - Documentation for Ruby 3.4](https://docs.ruby-lang.org/en/master/DateTime.html#class-DateTime-label-When+should+you+use+DateTime+and+when+should+you+use+Time-3F)
-* [ActiveSupport::TimeWithZone](https://api.rubyonrails.org/classes/ActiveSupport/TimeWithZone.html)
+* [`DateTime` docs](https://docs.ruby-lang.org/en/master/DateTime.html#class-DateTime-label-When+should+you+use+DateTime+and+when+should+you+use+Time-3F)
+* [`ActiveSupport::TimeWithZone` docs](https://api.rubyonrails.org/classes/ActiveSupport/TimeWithZone.html)
 * See also:
-  * [`acts_like?`](https://api.rubyonrails.org/classes/Object.html#method-i-acts_like-3F)
-  * [`Date#acts_like_date?`](https://api.rubyonrails.org/classes/Date.html#method-i-acts_like_date-3F)
-    and [`DateTime#acts_like_date?`](https://api.rubyonrails.org/classes/DateTime.html#method-i-acts_like_date-3F)
-  * [`Time#acts_like_time?`](https://api.rubyonrails.org/classes/Time.html#method-i-acts_like_time-3F),
-  * [`DateTime#acts_like_time?`](https://api.rubyonrails.org/classes/DateTime.html#method-i-acts_like_time-3F),
-  * [`TimeWithZone#acts_like_time?`](https://api.rubyonrails.org/classes/ActiveSupport/TimeWithZone.html#method-i-acts_like_time-3F)
+  * [`acts_like?` docs](https://api.rubyonrails.org/classes/Object.html#method-i-acts_like-3F)
+  * [`Date#acts_like_date?` docs](https://api.rubyonrails.org/classes/Date.html#method-i-acts_like_date-3F)
+    and [`DateTime#acts_like_date?` docs](https://api.rubyonrails.org/classes/DateTime.html#method-i-acts_like_date-3F)
+  * [`Time#acts_like_time?` docs](https://api.rubyonrails.org/classes/Time.html#method-i-acts_like_time-3F),
+  * [`DateTime#acts_like_time?` docs](https://api.rubyonrails.org/classes/DateTime.html#method-i-acts_like_time-3F),
+  * [`TimeWithZone#acts_like_time?` docs](https://api.rubyonrails.org/classes/ActiveSupport/TimeWithZone.html#method-i-acts_like_time-3F)
 
 ### `Thread` vs `Fiber`
 
@@ -453,8 +456,8 @@ like operators.
 
 ### `f.select` vs `select_tag`
 
-* [ActionView::Helpers::FormTagHelper](https://api.rubyonrails.org/v7.1.3.2/classes/ActionView/Helpers/FormTagHelper.html)
-* [ActionView::Helpers::FormHelper](https://api.rubyonrails.org/v7.1.3.2/classes/ActionView/Helpers/FormHelper.html)
+* [`ActionView::Helpers::FormTagHelper` docs](https://api.rubyonrails.org/v7.1.3.2/classes/ActionView/Helpers/FormTagHelper.html)
+* [`ActionView::Helpers::FormHelper` docs](https://api.rubyonrails.org/v7.1.3.2/classes/ActionView/Helpers/FormHelper.html)
 
 ### `flash` vs `flash.now`
 
@@ -483,7 +486,7 @@ like operators.
 
 ### Rails bang methods, e.g. `update` vs `update!`
 
-* [update! docs](https://api.rubyonrails.org/classes/ActiveRecord/Persistence.html#method-i-update-21)
+* [`update!` docs](https://api.rubyonrails.org/classes/ActiveRecord/Persistence.html#method-i-update-21)
 
 ### `select` vs `collection_select`
 
@@ -512,7 +515,7 @@ like operators.
 
 ### `select` vs `pluck`
 
-* [ActiveRecord's Select & Pluck. Column Down](https://medium.com/@amliving/activerecords-select-pluck-3d5c58872053) by Andrew Livingston
+* [ActiveRecord's Select & Pluck](https://medium.com/@amliving/activerecords-select-pluck-3d5c58872053) by Andrew Livingston
 
 ### `tag` vs `content_tag`
 
@@ -520,6 +523,6 @@ like operators.
 
 ### `update` vs `update_attribute` vs `update_all` vs `update_columns` vs `toggle` vs `touch` vs …
 
-* [rubocop-rails SkipsModelValidations](https://github.com/rubocop/rubocop-rails/blob/master/lib/rubocop/cop/rails/skips_model_validations.rb)
-* [ActiveRecord Validations: Skipping validations](https://guides.rubyonrails.org/active_record_validations.html#skipping-validations)
-* [ActiveRecord::Persistence docs](https://api.rubyonrails.org/classes/ActiveRecord/Persistence.html#method-i-update)
+* [rubocop-rails `SkipsModelValidations`](https://github.com/rubocop/rubocop-rails/blob/master/lib/rubocop/cop/rails/skips_model_validations.rb)
+* [ActiveRecord Validations Guide: Skipping validations](https://guides.rubyonrails.org/active_record_validations.html#skipping-validations)
+* [`ActiveRecord::Persistence` docs](https://api.rubyonrails.org/classes/ActiveRecord/Persistence.html#method-i-update)
