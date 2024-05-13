@@ -165,7 +165,7 @@ To see a searchable table of contents, click the list button on GitHub visible h
   * `*`
     * `"a" * 3` vs `3 * "a"`
   * `+`
-    * `Time.zone.now + 1.day` vs 1.day + `Time.zone.now`
+    * `Time.zone.now + 1.day` vs `1.day + Time.zone.now`
 
 ## `a ||= b` vs `a || a = b` vs `a = a || b`
 
