@@ -42,17 +42,17 @@ To see a searchable table of contents, click the list button on GitHub visible h
 
 ### `bsearch` vs `find`
 
-* [Binary Searching and Ruby's bsearch Method | Hashrocket](https://hashrocket.com/blog/posts/binary-searching-and-ruby-s-bsearch-method)
-* [Effective Use of Array#bsearch | Jemma Issroff](https://jemma.dev/blog/array-bsearch)
+* [Binary Searching and Ruby's bsearch Method](https://hashrocket.com/blog/posts/binary-searching-and-ruby-s-bsearch-method) by Andrew Vogel
+* [Effective Use of Array#bsearch](https://jemma.dev/blog/array-bsearch) by Jemma Issroff
 
 ### `flat_map` vs `map.flatten`
 
-* [Fun with flat_map (in Ruby) | Software and Systems—Keith Kim](https://blog.keithkim.org/code-patterns/fun-with-flatmap)
+* [Fun with flat_map (in Ruby)](https://blog.keithkim.org/code-patterns/fun-with-flatmap) by Keith Kim
 
 ### `insert` vs `unshift`
 
 * [What Does Ruby's Array#shift do?](https://stackoverflow.com/questions/3718625/what-does-rubys-arrayshift-do)
-* [Quick reference for ruby array methods: push/pop vs. shift/unshift - DEV Community](https://dev.to/ddhogan/quick-reference-for-array-methods-pushpop-vs-shiftunshift-4g7h)
+* [Quick reference for ruby array methods: push/pop vs. shift/unshift](https://dev.to/ddhogan/quick-reference-for-array-methods-pushpop-vs-shiftunshift-4g7h) by Donna Hogan
 
 ### `Kernel#Array` vs `Array.new` vs `[]`
 
@@ -72,22 +72,21 @@ To see a searchable table of contents, click the list button on GitHub visible h
 ### `Hash.new(default)` vs `Hash.new { default }`
 
 * [What's the difference between "Hash.new(0)" and "{}"](https://stackoverflow.com/questions/35177845/whats-the-difference-between-hash-new0-and)
-* [A trick with Ruby Hash.new - DEV Community](https://dev.to/factorial/a-trick-with-ruby-hash-new-2ma0)
+* [A trick with Ruby Hash.new](https://dev.to/factorial/a-trick-with-ruby-hash-new-2ma0) by Fran C.
 * [Ruby hash default value behavior](https://stackoverflow.com/questions/16159370/ruby-hash-default-value-behavior)
 * [Ruby Hash.new with a block need in-depth explanation](https://stackoverflow.com/questions/59869743/ruby-hash-new-with-a-block-need-in-depth-explanation)
 
 ### `merge` vs `deep_merge`
 
-* [Merge and Deep Merge — and Why One Day You'll Find The Latter Useful | by
-    Chris Waters | Medium](https://medium.com/@christhesoul/merge-and-deep-merge-and-why-one-day-youll-find-the-latter-useful-fd43f94c1226)
+* [Merge and Deep Merge — and Why One Day You'll Find The Latter Useful](https://medium.com/@christhesoul/merge-and-deep-merge-and-why-one-day-youll-find-the-latter-useful-fd43f94c1226) by Chris Waters
 
 ### `merge` vs `reverse_merge` vs `**` vs `merge!` vs `store` vs `update`
 
 * `**hash` will give a warning if overwriting an existing key
   `warning: key :your_key is duplicated and overwritten on line n`
 * [what is difference between store vs merge in ruby hashes?](https://stackoverflow.com/questions/29004428/what-is-difference-between-store-vs-merge-in-ruby-hashes)
-* [Ruby Quicktips - Merge or reverse_merge a Hash](https://rubyquicktips.com/post/5186906190/merge-or-reversemerge-a-hash)
-* [Ruby Double Splat Operator: A Comprehensive Cheatsheet](https://jetrockets.com/blog/ruby-double-splat-operator-cheatsheet)
+* [Merge or reverse_merge a Hash](https://rubyquicktips.com/post/5186906190/merge-or-reversemerge-a-hash)
+* [Ruby Double Splat Operator: A Comprehensive Cheatsheet](https://jetrockets.com/blog/ruby-double-splat-operator-cheatsheet) by Ilia Kriachkov
 
 ---
 
@@ -95,8 +94,8 @@ To see a searchable table of contents, click the list button on GitHub visible h
 
 ### `Range#cover?` vs `Range#include?`
 
-* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2cd56913015_0_95)
-* [Range#include? vs. Range#cover?](https://hashrocket.com/blog/posts/range-include-vs-range-cover)
+* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2cd56913015_0_95) by Andy Andrea
+* [Range#include? vs. Range#cover?](https://hashrocket.com/blog/posts/range-include-vs-range-cover) by Craig Hafer
 
 ---
 
@@ -106,11 +105,11 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 ### `each_with_object` vs `reduce(:to_h)`
 
-* [each_with_object vs. reduce/inject](https://www.leejroberts.com/reduce-vs-each_with_object/)
+* [each_with_object vs. reduce/inject](https://www.leejroberts.com/reduce-vs-each_with_object/) by Lee Roberts
 
 ### `group_by` vs `index_by` vs `index_with`
 
-* [What's the purpose of index_by over group_by? - Rails - Ruby-Forum](https://www.ruby-forum.com/t/whats-the-purpose-of-index-by-over-group-by/104054)
+* [What's the purpose of index_by over group_by?](https://www.ruby-forum.com/t/whats-the-purpose-of-index-by-over-group-by/104054)
 * [Enumerable#index_with](https://api.rubyonrails.org/classes/Enumerable.html#method-i-index_with)
 
 ---
@@ -120,7 +119,7 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 ### `''` vs `""` vs `String.new` vs `Kernel.String`
 
 * Single-quoted behavior in heredocs
-  * [Weird Ruby: Single-quoted Heredocs | Meta Redux](https://metaredux.com/posts/2019/05/22/weird-ruby-single-quoted-heredocs.html)
+  * [Weird Ruby: Single-quoted Heredocs](https://metaredux.com/posts/2019/05/22/weird-ruby-single-quoted-heredocs.html) by Bozhidar Batsov
 * [What's the difference between String.new and a string literal in Ruby?](https://stackoverflow.com/questions/41602998/whats-the-difference-between-string-new-and-a-string-literal-in-ruby)
 * [Double vs single quotes](https://stackoverflow.com/questions/6395288/double-vs-single-quotes)
 * `#frozen_string_literal: true`
@@ -144,9 +143,9 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 ### Normal vs dashed vs squiggly heredocs
 
-* [Heredocs and how to use them in Ruby and Rails | Saeloun Blog](https://blog.saeloun.com/2020/04/08/heredoc-in-ruby-and-rails/)
+* [Heredocs and how to use them in Ruby and Rails](https://blog.saeloun.com/2020/04/08/heredoc-in-ruby-and-rails/) by Romil Mehta
 * Additional heredoc info
-  * [Weird Ruby: Heredoc Delimiters | Meta Redux](https://metaredux.com/posts/2022/01/20/weird-ruby-heredoc-delimiters.html)
+  * [Weird Ruby: Heredoc Delimiters](https://metaredux.com/posts/2022/01/20/weird-ruby-heredoc-delimiters.html) by Bozhidar Batsov
 
 ### `start_with?` vs `end_with?` vs `[0]==` vs `[-1]==`
 
@@ -177,8 +176,8 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 ### `=~` vs `match` vs `match?` vs `Regexp#===` vs `String#scan`
 
-* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2cd56913015_0_100)
-* [Using Match vs. =~ in Ruby](https://hashrocket.com/blog/posts/using-match-vs-equals-tilde-in-ruby)
+* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2cd56913015_0_100) by Andy Andrea
+* [Using Match vs. =~ in Ruby](https://hashrocket.com/blog/posts/using-match-vs-equals-tilde-in-ruby) by Craig Hafer
 * [Fastest way to check if a string matches a regexp in ruby?](https://stackoverflow.com/questions/11887145/fastest-way-to-check-if-a-string-matches-a-regexp-in-ruby)
 
 ---
@@ -195,17 +194,17 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 ### Class vs instance methods
 
-* [Unraveling Classes, Instances and Metaclasses in Ruby](https://blog.appsignal.com/2019/02/05/ruby-magic-classes-instances-and-metaclasses.html)
+* [Unraveling Classes, Instances and Metaclasses in Ruby](https://blog.appsignal.com/2019/02/05/ruby-magic-classes-instances-and-metaclasses.html) by Jeff Kreeftmeijer
 
 ### `include` vs `extend` vs `prepend`
 
-* [Include, Extend, And Prepend In Ruby](https://veerpalbrar.github.io/blog/2021/11/26/Include,-Extend,-and-Prepend-In-Ruby)
+* [Include, Extend, And Prepend In Ruby](https://veerpalbrar.github.io/blog/2021/11/26/Include,-Extend,-and-Prepend-In-Ruby) by Veerpal Brar
 
 ### `instance_eval` vs `class_eval` vs `eval`
 
-* [The Difference Between `instance_eval` and `class_eval` In Ruby](https://hayford.dev/the-difference-between-instance-eval-and-class-eval-in-ruby/)
+* [The Difference Between `instance_eval` and `class_eval` In Ruby](https://hayford.dev/the-difference-between-instance-eval-and-class-eval-in-ruby/) by Emmanuel Hayford
 * [How to understand the difference between class_eval() and instance_eval()?](https://stackoverflow.com/questions/900419/how-to-understand-the-difference-between-class-eval-and-instance-eval)
-* [Evaluation Options in Ruby - InfoQ](https://www.infoq.com/articles/eval-options-in-ruby/)
+* [Evaluation Options in Ruby](https://www.infoq.com/articles/eval-options-in-ruby/) by Jay Fields
 
 ### `is_a?` vs `kind_of?` vs `instance_of?`
 
@@ -221,12 +220,12 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 ### `Integer` vs `Rational` vs `Float` vs `BigDecimal` vs `Complex`
 
-* [Numeric data types in Ruby and when to use them](https://thoughtbot.com/blog/numeric-data-types-in-ruby-and-when-to-use-them)
+* [Numeric data types in Ruby and when to use them](https://thoughtbot.com/blog/numeric-data-types-in-ruby-and-when-to-use-them) by Rémy Hannequin
 
 ### `NoMethodError` vs `NotImplementedError`
 
-* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2ce54aa32c0_0_5)
-* [Abstract methods and NotImplementedError in Ruby](https://nithinbekal.com/posts/abstract-methods-notimplementederror-ruby/)
+* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2ce54aa32c0_0_5) by Andy Andrea
+* [Abstract methods and NotImplementedError in Ruby](https://nithinbekal.com/posts/abstract-methods-notimplementederror-ruby/) by Nithin Bekal
 
 ### `Module` vs `Class`
 
@@ -241,7 +240,7 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 * `Struct` vs `OpenStruct`
   * [When should I use Struct vs. OpenStruct?](https://stackoverflow.com/questions/1177594/when-should-i-use-struct-vs-openstruct)
 * `Struct` vs `Data`
-  * [Ruby 3.2 introduces Data, a new core class for immutable value objects | Shakacode](https://www.shakacode.com/blog/ruby-3-2-adds-a-new-data-class/)
+  * [Ruby 3.2 introduces Data, a new core class for immutable value objects](https://www.shakacode.com/blog/ruby-3-2-adds-a-new-data-class/) by Alkesh Ghorpade
 
 ### `Time` vs `DateTime` vs `ActiveSupport::TimeWithZone`
 
@@ -258,7 +257,7 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 ### `Thread` vs `Fiber`
 
-* [Meet Fiber, Thread's Cooperative Cousin](https://thoughtbot.com/blog/meet-fiber-thread-s-cooperative-cousin)
+* [Meet Fiber, Thread's Cooperative Cousin](https://thoughtbot.com/blog/meet-fiber-thread-s-cooperative-cousin) by Thom Carter
 
 ---
 
@@ -325,7 +324,7 @@ like operators.
 
 ### Blocks vs procs vs lambdas
 
-* [Understanding Ruby - Blocks, Procs, and Lambdas](https://dev.to/baweaver/understanding-ruby-blocks-procs-and-lambdas-24o0)
+* [Understanding Ruby - Blocks, Procs, and Lambdas](https://dev.to/baweaver/understanding-ruby-blocks-procs-and-lambdas-24o0) by Brandon Weaver
 
 ### `clone` vs `dup`
 
@@ -357,10 +356,10 @@ like operators.
 
 ### Monkey-patching vs `define_method` vs `class_eval`
 
-* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2ce54aa32c0_2_26)
+* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2ce54aa32c0_2_26) by Andy Andrea
 * [Recommended approach to monkey patching a class in ruby](https://stackoverflow.com/questions/10337712/recommended-approach-to-monkey-patching-a-class-in-ruby)
 * [monkey patching vs class_eval?](https://stackoverflow.com/questions/9399358/monkey-patching-vs-class-eval)
-* **Warning**: non-HTTPS link: [Class_eval vs Define_method](http://www.brianmehrman.com/blog/2017/04/26/class-eval-vs-define-method/)
+* **Warning**: non-HTTPS link: [Class_eval vs Define_method](http://www.brianmehrman.com/blog/2017/04/26/class-eval-vs-define-method/) by Brian Mehrman
 * [Ruby's def and instance_eval vs. class_eval](https://stackoverflow.com/questions/4409023/rubys-def-and-instance-eval-vs-class-eval)
 
 ### Positional vs arg-based privacy
@@ -379,7 +378,7 @@ like operators.
 ### Refinements vs monkey-patching
 
 * [Mastering Refinements in Ruby: A Comprehensive Guide to Safer Monkey
-    Patching: part 1 | by Talaat Magdy](https://talaatmagdyx.medium.com/mastering-refinements-in-ruby-a-comprehensive-guide-to-safer-monkey-patching-531dfdb86608)
+    Patching: part 1](https://talaatmagdyx.medium.com/mastering-refinements-in-ruby-a-comprehensive-guide-to-safer-monkey-patching-531dfdb86608) by Talaat Magdy
 
 ### `respond_to?` vs `defined?` vs `method_defined?`
 
@@ -387,7 +386,7 @@ like operators.
 
 ### Ruby bang methods, e.g. `downcase` vs `downcase!`
 
-* [About bang methods in Ruby, from its creator | thoughtful](https://thoughtfulapps.com/articles/ruby/about-ruby-bang-methods)
+* [About bang methods in Ruby, from its creator](https://thoughtfulapps.com/articles/ruby/about-ruby-bang-methods)
 * [How to convert a string to lower or upper case in Ruby](https://stackoverflow.com/questions/1020568/how-to-convert-a-string-to-lower-or-upper-case-in-ruby)
   * Comment about `downcase!` sometimes returning `nil` is important; don't
     chain bang method calls
@@ -397,10 +396,10 @@ like operators.
 ### `to_s` vs `inspect`
 
 * [Why do this Ruby object have both to_s and inspect methods that appear to do the same thing?](https://stackoverflow.com/questions/2625667/why-do-this-ruby-object-have-both-to-s-and-inspect-methods-that-appear-to-do-the)
-* [Inspecting Ruby's inspect method](https://thoughtbot.com/blog/ruby-inspect-tutorial)
+* [Inspecting Ruby's inspect method](https://thoughtbot.com/blog/ruby-inspect-tutorial) by Louis Antonopoulos and Steve Polito
 ### Various ways to call a method
 
-* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2ce54aa32c0_2_30)
+* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2ce54aa32c0_2_30) by Andy Andrea
 
 ---
 
@@ -411,13 +410,13 @@ like operators.
 * For Ruby
   * [ruby - What is the difference between `size` and `length` methods](https://stackoverflow.com/questions/35816739/what-is-the-difference-between-size-and-length-methods)
 * For Rails
-  * [Ruby on Rails: length vs size vs count with examples | by Gonzalo Galdámez | Unagi | Medium](https://medium.com/unagi/ruby-on-rails-length-vs-size-vs-count-with-examples-a32e17274c79)
+  * [Ruby on Rails: length vs size vs count with examples](https://medium.com/unagi/ruby-on-rails-length-vs-size-vs-count-with-examples-a32e17274c79) by Gonzalo Galdámez
 
 ### `delegate` vs `def_delegator` vs `def_delegators` vs `SimpleDelegator` vs `DelegateClass` vs `method_missing`
 
-* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2cd56913015_0_174)
-* [Delegating things in Ruby](https://rubyhero.dev/delegator-design-pattern)
-* [Delegate vs Forwardable vs SimpleDelegator — Ruby vs Rails](https://medium.com/@rajputlakhveer/delegate-vs-forwardable-vs-simpledelegator-ruby-vs-rails-7993106ad175)
+* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2cd56913015_0_174) by Andy Andrea
+* [Delegating things in Ruby](https://rubyhero.dev/delegator-design-pattern) by Paweł Dąbrowski
+* [Delegate vs Forwardable vs SimpleDelegator — Ruby vs Rails](https://medium.com/@rajputlakhveer/delegate-vs-forwardable-vs-simpledelegator-ruby-vs-rails-7993106ad175) by Lakhveer Singh Rajput
 
 ### `distinct` vs `uniq`
 
@@ -426,7 +425,7 @@ like operators.
 ### `sort` vs `sort_by` vs `order`
 
 * `order` comes from Rails and is used for constructing queries
-* [Method of the Month 1: Ruby's sort vs. sort_by | Brandon Dimcheff](https://brandon.dimcheff.com/2009/11/18/rubys-sort-vs-sort-by/)
+* [Method of the Month 1: Ruby's sort vs. sort_by](https://brandon.dimcheff.com/2009/11/18/rubys-sort-vs-sort-by/) by Brandon Dimcheff
 * `sort.reverse` vs `sort_by` performance:
   * [FastRuby repo](https://github.com/fastruby/fast-ruby?tab=readme-ov-file#arraysortreverse-vs-arraysort_by---block-code)
 
@@ -440,16 +439,16 @@ like operators.
 
 ### `any?` vs `count > 0` vs `exist?`
 
-* [Faster Rails: How to Check if a Record Exists - Semaphore](https://semaphoreci.com/blog/2017/03/14/faster-rails-how-to-check-if-a-record-exists.html)
+* [Faster Rails: How to Check if a Record Exists](https://semaphoreci.com/blog/2017/03/14/faster-rails-how-to-check-if-a-record-exists.html) by Igor Šarčević
 
 ### `each` vs `find_each` vs `find_in_batches` vs `in_batches`
 
 * [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html#retrieving-multiple-objects-in-batches)
-* [Rails — find_each v.s find_in_batches v.s in_batches | by 涓 / Lynn Chang | Lynn's dev blog | Medium](https://medium.com/lynns-dev-blog/rails-find-each-v-s-find-in-batches-v-s-in-batches-d5ca9bfe37d)
+* [Rails — find_each v.s find_in_batches v.s in_batches](https://medium.com/lynns-dev-blog/rails-find-each-v-s-find-in-batches-v-s-in-batches-d5ca9bfe37d) by 涓 / Lynn Chang
 
 ### `each { render ... }` vs `render ..., collection: ...`
 
-* [Rendering Collections in Rails](https://thoughtbot.com/blog/rendering-collections-in-rails)
+* [Rendering Collections in Rails](https://thoughtbot.com/blog/rendering-collections-in-rails) by Joël Quenneville
 * [Rails 4: why is one way of rendering partials so much faster?](https://stackoverflow.com/questions/44509928/rails-4-why-is-one-way-of-rendering-partials-so-much-faster)
 
 ### `f.select` vs `select_tag`
@@ -459,12 +458,12 @@ like operators.
 
 ### `flash` vs `flash.now`
 
-* [How to Use Flash Messages in Rails - RubyGuides](https://www.rubyguides.com/2019/11/rails-flash-messages/)
+* [How to Use Flash Messages in Rails](https://www.rubyguides.com/2019/11/rails-flash-messages/) by Jesus Castello
 
 ### `form_for` vs `form_tag` vs `form_with`
 
 * [Rails 5: form_for vs form_with](https://stackoverflow.com/questions/43868976/rails-5-form-for-vs-form-with)
-* [Rails: form_with vs. form_for vs. form_tag | by Scott Espinosa](https://scottespinosa.medium.com/rails-form-with-vs-form-for-vs-form-tag-c7d94d4e1c5d)
+* [Rails: form_with vs. form_for vs. form_tag](https://scottespinosa.medium.com/rails-form-with-vs-form-for-vs-form-tag-c7d94d4e1c5d) by Scott Espinosa
 
 ### `has_one|many through:` vs delegated associations
 
@@ -476,7 +475,7 @@ like operators.
 
 ### `includes` vs `preload` vs `eager_load`
 
-* [A Visual Guide to Using :includes in Rails](https://engineering.gusto.com/a-visual-guide-to-using-includes-in-rails/)
+* [A Visual Guide to Using :includes in Rails](https://engineering.gusto.com/a-visual-guide-to-using-includes-in-rails/) by Julianna Roen
 
 ### Path helpers vs URL helpers
 
@@ -513,8 +512,7 @@ like operators.
 
 ### `select` vs `pluck`
 
-* [ActiveRecord's Select & Pluck. Column Down | by Andrew Livingston |
-    Medium](https://medium.com/@amliving/activerecords-select-pluck-3d5c58872053)
+* [ActiveRecord's Select & Pluck. Column Down](https://medium.com/@amliving/activerecords-select-pluck-3d5c58872053) by Andrew Livingston
 
 ### `tag` vs `content_tag`
 
