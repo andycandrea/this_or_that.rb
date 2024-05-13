@@ -38,7 +38,7 @@ here:
 
 * [Ruby - Difference between Array#<< and Array#push](https://stackoverflow.com/questions/10569529/ruby-difference-between-array-and-arraypush)
 
-### `Array#[1]`/`Array#[-1]` vs `Array#first`/`Array#last`
+### `Array#[0]`/`Array#[-1]` vs `Array#first`/`Array#last`
 
 * [FastRuby repo](https://github.com/fastruby/fast-ruby?tab=readme-ov-file#array0-vs-arrayfirst-code)
 * [Ruby convention for accessing first/last element in array [closed]](https://stackoverflow.com/questions/18212240/ruby-convention-for-accessing-first-last-element-in-array)
