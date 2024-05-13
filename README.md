@@ -23,6 +23,10 @@ For more information, see [the slides from the talk at RailsConf
 2024](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit?usp=sharing)
 (video will be added once available).
 
+To see a searchable table of contents, click the list button on GitHub visible here:
+
+![image](https://github.com/andycandrea/this_or_that.rb/assets/5621517/4f165a3c-d63a-4657-aace-7328ee045dcc)
+
 ## `.new` vs `#initialize`
 
 * [The difference between initialize and self.new](https://stackoverflow.com/questions/24130457/the-difference-between-initialize-and-self-new)
