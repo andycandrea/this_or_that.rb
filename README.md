@@ -444,6 +444,11 @@ like operators.
 
 * [Faster Rails: How to Check if a Record Exists](https://semaphoreci.com/blog/2017/03/14/faster-rails-how-to-check-if-a-record-exists.html) by Igor Šarčević
 
+### `deliver` vs `deliver_now` vs `deliver_later`
+
+* [Difference between Action Job/Mailer's `deliver_now` and `deliver_later`](https://stackoverflow.com/questions/32619366/difference-between-action-job-mailers-deliver-now-and-deliver-later)
+* [What is the difference between deliver & deliver_now in rails?](https://stackoverflow.com/questions/67736014/what-is-the-difference-between-deliver-deliver-now-in-rails)
+
 ### `each` vs `find_each` vs `find_in_batches` vs `in_batches`
 
 * [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html#retrieving-multiple-objects-in-batches)
@@ -483,6 +488,13 @@ like operators.
 ### Path helpers vs URL helpers
 
 * [Named routes _path vs _url - ruby on rails](https://stackoverflow.com/questions/11939865/named-routes-path-vs-url)
+
+### `perform` vs `perform_now` vs `perform_later`
+
+* [ActiveJob - what's the difference between MyJob.new.perform and MyJob.perform_now?](https://stackoverflow.com/questions/56765825/activejob-whats-the-difference-between-myjob-new-perform-and-myjob-perform-no)
+* [Decoding Rails Magic: How Does ActiveJob work?](https://karolgalanciak.com/blog/2016/09/25/decoding-rails-magic-how-does-activejob-work/) by Karol Galanciak
+* [`perform_now` docs](https://api.rubyonrails.org/classes/ActiveJob/Execution.html#method-i-perform_now)
+* [`perform_later` docs](https://api.rubyonrails.org/classes/ActiveJob/Enqueuing/ClassMethods.html#method-i-perform_later)
 
 ### Rails bang methods, e.g. `update` vs `update!`
 
