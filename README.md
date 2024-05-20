@@ -220,8 +220,14 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 ### Global variables vs constants
 
 * [Exploring Ruby's Global Constants and Variables](https://www.fastruby.io/blog/exploring-global-constants-and-variables.html) by Ariel Juodziukynas
+* Some global variables can special meanings in Ruby: [link to
+  docs](https://docs.ruby-lang.org/en/3.3/globals_rdoc.html)
+  * Note that some of these _will_ change over time while your app is running
+    depending on what code gets run (e.g. the regex matching ones), so don't
+    define them manually and expect them to be stable
 * Constants are namespaced to the class/module they are defined in; "global"
   constants are really nested under `Object`
+  * For a list of such constants, you can run `Object.constants`
 * Constants can be privatized with
   [`private_constant`](https://ruby-doc.org/3.3.1/Module.html#method-i-private_constant)
 
