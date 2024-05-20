@@ -199,6 +199,11 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 * [Unraveling Classes, Instances and Metaclasses in Ruby](https://blog.appsignal.com/2019/02/05/ruby-magic-classes-instances-and-metaclasses.html) by Jeff Kreeftmeijer
 
+### Class instance variables vs class variables
+
+* [Ruby class instance variable vs. class variable](https://stackoverflow.com/questions/15773552/ruby-class-instance-variable-vs-class-variable)
+* [Difference between class variables and class instance variables?](https://stackoverflow.com/questions/3802540/difference-between-class-variables-and-class-instance-variables)
+
 ### `include` vs `extend` vs `prepend`
 
 * [Include, Extend, And Prepend In Ruby](https://veerpalbrar.github.io/blog/2021/11/26/Include,-Extend,-and-Prepend-In-Ruby) by Veerpal Brar
@@ -209,9 +214,26 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 * [How to understand the difference between class_eval() and instance_eval()?](https://stackoverflow.com/questions/900419/how-to-understand-the-difference-between-class-eval-and-instance-eval)
 * [Evaluation Options in Ruby](https://www.infoq.com/articles/eval-options-in-ruby/) by Jay Fields
 
+### Global variables vs constants
+
+* [Exploring Ruby's Global Constants and Variables](https://www.fastruby.io/blog/exploring-global-constants-and-variables.html) by Ariel Juodziukynas
+* Constants are namespaced to the class/module they are defined in; "global"
+  constants are really nested under `Object`
+* Constants can be privatized with
+  [`private_constant`](https://ruby-doc.org/3.3.1/Module.html#method-i-private_constant)
+
 ### `is_a?` vs `kind_of?` vs `instance_of?`
 
 * [Ruby: kind_of? vs. instance_of? vs. is_a?](https://stackoverflow.com/questions/3893278/ruby-kind-of-vs-instance-of-vs-is-a)
+
+### Local vs instance vs class vs global variables
+
+* [What is the difference between local, instance, and class variables?](https://stackoverflow.com/questions/14127805/what-is-the-difference-between-local-instance-and-class-variables)
+* [How do you use global variables or constant values in Ruby?](https://stackoverflow.com/questions/1042384/how-do-you-use-global-variables-or-constant-values-in-ruby)
+* Shorthand for instance, class and global variables can be used in String
+  interpolation, e.g. `"#@foo, world!"` instead of `"#{@foo}, world!"`
+  ([link to docs](https://docs.ruby-lang.org/en/master/syntax/literals_rdoc.html#label-Strings)
+
 
 ### `.new` vs `#initialize`
 
