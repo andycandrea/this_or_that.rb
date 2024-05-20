@@ -100,6 +100,9 @@ here:
 * [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2cd56913015_0_95) by Andy Andrea
 * [Range#include? vs. Range#cover?](https://hashrocket.com/blog/posts/range-include-vs-range-cover) by Craig Hafer
 
+## `..` vs `...`
+
+* [Difference between '..' (double-dot) and '...' (triple-dot) in range generation?](https://stackoverflow.com/questions/9690801/difference-between-double-dot-and-triple-dot-in-range-generation)
 ---
 
 ## Other `Enumerable`
@@ -299,6 +302,15 @@ like operators.
   * `===:` None
   * `eql?`: `eql`
   * `equal?`: `equal`
+
+### `..` in conditionals vs `..` elsewhere
+
+* In most cases, `..` is used to construct a `Range` (see "Ranges" section
+  above)
+* In conditionals (including ternary operators), `..` is the flip-flop
+  operator
+  * [Flip flop operator in Ruby](https://nithinbekal.com/posts/ruby-flip-flop/)
+    by Nithin Bekal
 
 ### `or` vs `||`
 
