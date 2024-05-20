@@ -36,7 +36,7 @@ here:
 
 ### `<<` vs `push` vs `concat`
 
-* [Ruby - Difference between Array#<< and Array#push](https://stackoverflow.com/questions/10569529/ruby-difference-between-array-and-arraypush)
+* [Difference between Array#<< and Array#push](https://stackoverflow.com/questions/10569529/ruby-difference-between-array-and-arraypush)
 
 ### `Array#[0]`/`Array#[-1]` vs `Array#first`/`Array#last`
 
@@ -69,8 +69,8 @@ here:
 
 ### `Hash#[]` vs `fetch` vs `dig`
 
-* [ruby - fetch vs. [] when working with hashes?](https://stackoverflow.com/questions/16569409/fetch-vs-when-working-with-hashes)
-* [ruby on rails - Could someone explain me what is the difference between Hash#dig vs Hash#fetch](https://stackoverflow.com/questions/55429632/could-someone-explain-me-what-is-the-difference-between-hashdig-vs-hashfetch)
+* [fetch vs. [] when working with hashes?](https://stackoverflow.com/questions/16569409/fetch-vs-when-working-with-hashes)
+* [Could someone explain me what is the difference between Hash#dig vs Hash#fetch](https://stackoverflow.com/questions/55429632/could-someone-explain-me-what-is-the-difference-between-hashdig-vs-hashfetch)
 
 ### `Hash.new(default)` vs `Hash.new { default }`
 
@@ -174,7 +174,7 @@ Comparisons under this section apply to multiple `Enumerable` classes.
   * See discussion in accepted answer for distinction
 ### `to_i` vs `Integer()`
 
-* [ruby - Difference between Integer(value) and value.to_i](https://stackoverflow.com/questions/10093493/difference-between-integervalue-and-value-to-i)
+* [Difference between Integer(value) and value.to_i](https://stackoverflow.com/questions/10093493/difference-between-integervalue-and-value-to-i)
 
 ---
 
@@ -233,7 +233,7 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 ### `is_a?` vs `kind_of?` vs `instance_of?`
 
-* [Ruby: kind_of? vs. instance_of? vs. is_a?](https://stackoverflow.com/questions/3893278/ruby-kind-of-vs-instance-of-vs-is-a)
+* [kind_of? vs. instance_of? vs. is_a?](https://stackoverflow.com/questions/3893278/ruby-kind-of-vs-instance-of-vs-is-a)
 
 ### Local vs instance vs class vs global variables
 
@@ -263,7 +263,7 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 ### `Module` vs `Class`
 
-* [ruby - Difference between a class and a module](https://stackoverflow.com/questions/151505/difference-between-a-class-and-a-module)
+* [Difference between a class and a module](https://stackoverflow.com/questions/151505/difference-between-a-class-and-a-module)
 
 ### `Object` vs `BasicObject`
 
@@ -302,7 +302,7 @@ like operators.
 
 ### `==` vs `===` vs `eq?` vs `equal?`
 
-* [ruby - What's the difference between equal?, eql?, ===, and ==?](https://stackoverflow.com/questions/7156955/whats-the-difference-between-equal-eql-and)
+* [What's the difference between equal?, eql?, ===, and ==?](https://stackoverflow.com/questions/7156955/whats-the-difference-between-equal-eql-and)
 * RSpec matchers
   * `==:` `eq`
   * `===:` None
@@ -320,7 +320,7 @@ like operators.
 
 ### `or` vs `||`
 
-* [Difference between "or" and || in Ruby? [duplicate]](https://stackoverflow.com/questions/2083112/difference-between-or-and-in-ruby)
+* [Difference between "or" and || in Ruby?](https://stackoverflow.com/questions/2083112/difference-between-or-and-in-ruby)
 
 ### `a + b` vs `b + a`
 
@@ -348,7 +348,7 @@ like operators.
 
 ### `alias` vs `alias_method`
 
-* [ruby - Should I use alias or alias_method?](https://stackoverflow.com/questions/4763121/should-i-use-alias-or-alias-method)
+* [Should I use alias or alias_method?](https://stackoverflow.com/questions/4763121/should-i-use-alias-or-alias-method)
 
 ### `as_json` vs `to_json`
 
@@ -451,7 +451,7 @@ like operators.
 ### `count` vs `length` vs `size`
 
 * For Ruby
-  * [ruby - What is the difference between `size` and `length` methods](https://stackoverflow.com/questions/35816739/what-is-the-difference-between-size-and-length-methods)
+  * [What is the difference between `size` and `length` methods](https://stackoverflow.com/questions/35816739/what-is-the-difference-between-size-and-length-methods)
 * For Rails
   * [Ruby on Rails: length vs size vs count with examples](https://medium.com/unagi/ruby-on-rails-length-vs-size-vs-count-with-examples-a32e17274c79) by Gonzalo Galdámez
 
@@ -463,7 +463,7 @@ like operators.
 
 ### `distinct` vs `uniq`
 
-* [Rails: uniq vs. distinct](https://stackoverflow.com/questions/39575398/rails-uniq-vs-distinct)
+* [uniq vs. distinct](https://stackoverflow.com/questions/39575398/rails-uniq-vs-distinct)
 
 ### `sort` vs `sort_by` vs `order`
 
