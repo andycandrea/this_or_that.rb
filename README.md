@@ -348,6 +348,11 @@ like operators.
 
 ## General Ruby
 
+### `abort` vs `exit` vs `exit!` vs `raise`
+
+* [What is the difference between exit and abort?](https://stackoverflow.com/questions/23340609/what-is-the-difference-between-exit-and-abort)
+* [How to exit a Ruby program](https://www.honeybadger.io/blog/how-to-exit-a-ruby-program/) by Starr Horne
+
 ### `alias` vs `alias_method`
 
 * [Should I use alias or alias_method?](https://stackoverflow.com/questions/4763121/should-i-use-alias-or-alias-method)
@@ -425,9 +430,17 @@ like operators.
 * [Mastering Refinements in Ruby: A Comprehensive Guide to Safer Monkey
     Patching: part 1](https://talaatmagdyx.medium.com/mastering-refinements-in-ruby-a-comprehensive-guide-to-safer-monkey-patching-531dfdb86608) by Talaat Magdy
 
+### `rescue` vs `ensure` vs `else`
+
+* [Begin, Rescue and Ensure in Ruby?](https://stackoverflow.com/questions/2191632/begin-rescue-and-ensure-in-ruby)
+
 ### `respond_to?` vs `defined?` vs `method_defined?`
 
 * ['respond_to?' versus 'defined?' - ruby](https://stackoverflow.com/questions/44107544/respond-to-versus-defined)
+
+### `retry` vs `redo`
+
+* [Ruby's redo, retry and next keywords](https://blog.appsignal.com/2018/06/05/redo-retry-next.html) by Thijs Cadier
 
 ### Ruby bang methods, e.g. `downcase` vs `downcase!`
 
@@ -437,6 +450,10 @@ like operators.
     chain bang method calls
 * Both sources are pretty generalizable to bang vs non-bang methods in Ruby
   (e.g. not just `downcase`/`downcase!`)
+
+### `throw`/`catch` vs `raise`/`rescue`
+
+* [Throw, Catch, Raise, Rescue – I'm So Confused!](https://avdi.codes/throw-catch-raise-rescue-im-so-confused/) by Avdi Grimm
 
 ### `to_s` vs `inspect`
 
