@@ -321,6 +321,7 @@ like operators.
 ### `or` vs `||`
 
 * [Difference between "or" and || in Ruby?](https://stackoverflow.com/questions/2083112/difference-between-or-and-in-ruby)
+* The difference in precedence also holds true for `and`/`&&` and `not`/`!`
 
 ### `a + b` vs `b + a`
 
@@ -341,6 +342,7 @@ like operators.
 ### `a ||= b` vs `a || a = b` vs `a = a || b`
 
 * [What does ||= (or-equals) mean in Ruby?](https://stackoverflow.com/questions/995593/what-does-or-equals-mean-in-ruby)
+* These differences also hold for `&&=`
 
 ---
 
@@ -440,6 +442,7 @@ like operators.
 
 * [Why do this Ruby object have both to_s and inspect methods that appear to do the same thing?](https://stackoverflow.com/questions/2625667/why-do-this-ruby-object-have-both-to-s-and-inspect-methods-that-appear-to-do-the)
 * [Inspecting Ruby's inspect method](https://thoughtbot.com/blog/ruby-inspect-tutorial) by Louis Antonopoulos and Steve Polito
+
 ### Various ways to call a method
 
 * [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2ce54aa32c0_2_30) by Andy Andrea
