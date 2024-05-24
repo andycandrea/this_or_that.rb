@@ -231,6 +231,11 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 * Constants can be privatized with
   [`private_constant`](https://ruby-doc.org/3.3.1/Module.html#method-i-private_constant)
 
+### Inline vs nested modules
+
+* [Why you should nest modules in Ruby](https://thoughtbot.com/blog/why-you-should-nest-modules-in-ruby)
+  by Justin Toniazzo
+
 ### `is_a?` vs `kind_of?` vs `instance_of?`
 
 * [kind_of? vs. instance_of? vs. is_a?](https://stackoverflow.com/questions/3893278/ruby-kind-of-vs-instance-of-vs-is-a)
