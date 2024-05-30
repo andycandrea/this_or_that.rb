@@ -201,6 +201,9 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 ### Class vs instance methods
 
 * [Unraveling Classes, Instances and Metaclasses in Ruby](https://blog.appsignal.com/2019/02/05/ruby-magic-classes-instances-and-metaclasses.html) by Jeff Kreeftmeijer
+* Note: similar to how you can define a class method with `def self.my_method`,
+  you can also define a method on an object via `def my_variable.my_method`
+  similarly to `define_singleton_method`
 
 ### Class instance variables vs class variables
 
@@ -388,6 +391,14 @@ like operators.
 ### `defined?(yield)` vs `block_given?`
 
 * [The defined? keyword in Ruby](https://medium.com/rubycademy/the-defined-keyword-in-ruby-b7a5a5a48e1e)
+
+### `define_method` vs `define_singleton_method`
+
+* `define_method` is defined on `Module` whereas `define_singleton_method` is
+  defined on `Object`
+* `define_method` is typically used to define an instance method on a class or
+  module whereas `define_singleton_method` is for defining a method on a
+  single instance of a class
 
 ### `instance_variable_set` vs `local_variable_set`
 
