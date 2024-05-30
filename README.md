@@ -436,10 +436,13 @@ like operators.
   * Doing a `def self.method` after a `private` will *not* make it a private
     class method
 
-### `private` vs `protected`
+### `private` vs `protected` vs `public`
 
 * [What are the differences between "private", "public", and "protected
     methods"?](https://stackoverflow.com/questions/9882754/what-are-the-differences-between-private-public-and-protected-methods)
+* [Better Know A Ruby Thing: Methods and Access Control (part
+  1)](https://noelrappin.com/blog/2024/05/better-know-access-control-part-1/)
+  by Noel Rappin
 
 ### Refinements vs monkey-patching
 
