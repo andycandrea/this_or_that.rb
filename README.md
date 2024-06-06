@@ -113,6 +113,15 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 * [each_with_object vs. reduce/inject](https://www.leejroberts.com/reduce-vs-each_with_object/) by Lee Roberts
 
+### `Enumerable` vs `Enumerator`
+
+* [3 Mental Models For Ruby Enumerators](https://thoughtbot.com/blog/3-mental-models-for-ruby-enumerators)
+  by Joël Quenneville
+* [Understanding Ruby - Enumerable - Iterating and Taking](https://dev.to/baweaver/understanding-ruby-enumerable-iterating-and-taking-1fga)
+  by Brandon Weaver
+* [`Enumerable` docs](https://docs.ruby-lang.org/en/master/Enumerable.html)
+* [`Enumerator` docs](https://docs.ruby-lang.org/en/master/Enumerator.html)
+
 ### `group_by` vs `index_by` vs `index_with`
 
 * [What's the purpose of index_by over group_by?](https://www.ruby-forum.com/t/whats-the-purpose-of-index-by-over-group-by/104054)
