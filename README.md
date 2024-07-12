@@ -8,9 +8,8 @@ may not be readily apparent.
 The provided resources largely describe differences in usage and semantics and
 might not include differences in performance or version compatibility. For more
 information, including different ways in which items in this list may differ,
-see [the slides from the talk at RailsConf
-2024](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit?usp=sharing)
-(video will be added once available).
+see [the recording from RailsConf 2024](https://www.youtube.com/watch?v=tfxJyya6P6A&list=PLbHJudTY1K0chrs_E_XFz2pOJ3d8jCayh&index=27)
+and [the slides from the talk](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit?usp=sharing).
 
 When reading the resources, consider any accepted answers and discussion and
 note that some information might be more or less relevant for different versions
