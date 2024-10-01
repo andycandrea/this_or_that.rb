@@ -272,15 +272,22 @@ Comparisons under this section apply to multiple `Enumerable` classes.
 
 * [Numeric data types in Ruby and when to use them](https://thoughtbot.com/blog/numeric-data-types-in-ruby-and-when-to-use-them) by Rémy Hannequin
 
-### `NoMethodError` vs `NotImplementedError`
+### `Fixnum` vs `Bignum` vs `Integer`
 
-* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2ce54aa32c0_0_5) by Andy Andrea
-* [Abstract methods and NotImplementedError in Ruby](https://nithinbekal.com/posts/abstract-methods-notimplementederror-ruby/) by Nithin Bekal
+* `Fixnum` and `Bignum` were unified under `Integer` in Ruby 2.4
+  * However, large integers still differ from smaller integers in terms of
+    object allocation. See [Eliminating Intermediate Array Allocations](https://tenderlovemaking.com/2024/09/29/eliminating-intermediate-array-allocations/)
+    by Aaron Patterson
+* [How Numbers Work in Ruby: Understanding Integers, Floats & Bigdecimal](https://www.rubyguides.com/2016/07/numbers-in-ruby/) by Jesus Castello
 
 ### `Module` vs `Class`
 
 * [Difference between a class and a module](https://stackoverflow.com/questions/151505/difference-between-a-class-and-a-module)
 
+### `NoMethodError` vs `NotImplementedError`
+
+* [This || That slides](https://docs.google.com/presentation/d/1-IATp3rDmctTlXqDDdCLssMc_dl8j4MdIF5TV063EU0/edit#slide=id.g2ce54aa32c0_0_5) by Andy Andrea
+* [Abstract methods and NotImplementedError in Ruby](https://nithinbekal.com/posts/abstract-methods-notimplementederror-ruby/) by Nithin Bekal
 ### `Object` vs `BasicObject`
 
 * [What's the difference between Object and BasicObject in Ruby?](https://stackoverflow.com/questions/8894817/whats-the-difference-between-object-and-basicobject-in-ruby)
