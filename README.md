@@ -376,9 +376,10 @@ like operators.
 * [What is the difference between exit and abort?](https://stackoverflow.com/questions/23340609/what-is-the-difference-between-exit-and-abort)
 * [How to exit a Ruby program](https://www.honeybadger.io/blog/how-to-exit-a-ruby-program/) by Starr Horne
 
-### `alias` vs `alias_method`
+### `alias` vs `alias_method` vs `alias_attribute`
 
 * [Should I use alias or alias_method?](https://stackoverflow.com/questions/4763121/should-i-use-alias-or-alias-method)
+* [A Tale of 3 Aliases](https://www.fastruby.io/blog/a-tale-of-3-aliases.html) by Mateus Pereira
 
 ### `as_json` vs `to_json`
 
