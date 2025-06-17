@@ -400,6 +400,16 @@ like operators.
 
 * [Understanding Ruby - Blocks, Procs, and Lambdas](https://dev.to/baweaver/understanding-ruby-blocks-procs-and-lambdas-24o0) by Brandon Weaver
 
+### `case in` vs `case when`
+
+* [Case when docs](https://docs.ruby-lang.org/en/master/syntax/control_expressions_rdoc.html#label-case+Expression)
+* [Case in/pattern matching docs](https://docs.ruby-lang.org/en/master/syntax/pattern_matching_rdoc.html)
+  * Of note if you're new to Ruby's pattern matching: "if the value of the
+    expression does not match any branch of the case expression (and the else
+    branch is absent), NoMatchingPatternError is raised." In other words, an
+    `else` may prevent an uncaught exception that you might not expect to be
+    necessary.
+
 ### `clone` vs `dup`
 
 * [What's the difference between Ruby's dup and clone methods?](https://stackoverflow.com/questions/10183370/whats-the-difference-between-rubys-dup-and-clone-methods)
